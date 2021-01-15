@@ -12,11 +12,11 @@ client = None
 print(serial.tools.list_ports.comports()[0].device)
 ser = serial.Serial(serial.tools.list_ports.comports()[0].device, 9600, timeout=0, parity=serial.PARITY_EVEN, rtscts=1)
 
-org="hz7oe0"
-username = "a-hz7oe0-su87h65c94"
-password = "hqJC5DhwarJ7XYwD0_"
+org=""
+username = ""
+password = ""
 token="use-token-auth"
-secret="+Trx9(7IghIy?VViXd"
+secret=""
 deviceType="lg"
 deviceID="lora1"
 topic = "iot-2/evt/status/fmt/json"
